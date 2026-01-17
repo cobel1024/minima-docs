@@ -1,0 +1,119 @@
+site_name: Minima Docs
+site_url: https://cobel1024.github.io/minima-docs/
+theme:
+  name: material
+  features:
+    - navigation.footer
+
+    - navigation.top
+    # - navigation.tabs
+    # - navigation.sections
+    - navigation.expand
+    # - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon/favicon.ico
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - mdx_truly_sane_lists
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - glightbox
+  - optimize:
+      enabled: true
+      cache: true
+      cache_dir: .cache/plugin/optimize
+
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: ko
+          name: 한국어
+          build: true
+          nav_translations:
+            Home: 홈
+            Installation: 설치
+
+            Student: 학습자
+            Dashboard: 대시보드
+            Search: 검색
+            Catalog: 카탈로그
+            Goal: 목표
+            Achievement: 성취
+            Communication: 소통
+            AI Assistant: AI 어시스턴트
+
+            Learning Object: 학습 객체
+            Assignment: 과제
+            Exam: 시험
+            Discussion: 토론
+            Video: 비디오
+            PDF: PDF
+            Survey: 설문조사
+            Course: 과정
+
+            Account: 계정
+            Operation: 운영
+            Partner: 파트너
+            Competency: 역량
+            Content: 콘텐츠
+            Quiz: 퀴즈
+            Learning: 학습
+            Store: 스토어
+            Tracking: 추적
+
+        # place last order for fallback
+        - locale: en
+          default: true
+          name: English
+          build: true
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+
+  - Student:
+      - Dashboard: student/dashboard.md
+      - Search: student/search.md
+      - Catalog: student/catalog.md
+      - Goal: student/goal.md
+      - Achievement: student/achievement.md
+      - Communication: student/communication.md
+      - AI Assistant: student/assistant.md
+
+  - Learning Object:
+      - Exam: student/exam.md
+      - Assignment: student/assignment.md
+      - Discussion: student/discussion.md
+      - Video: student/video.md
+      - PDF: student/pdf.md
+      - Survey: student/survey.md
+      - Course: student/course.md
+
+  - Admin (in writing):
+      - Account: admin/account.md
+      - Operation: admin/operation.md
+      - Partner: admin/partner.md
+      - Competency: admin/competency.md
+      - Content: admin/content.md
+      - Survey: admin/survey.md
+      - Quiz: admin/quiz.md
+      - Exam: admin/exam.md
+      - Assignment: admin/assignment.md
+      - Discussion: admin/discussion.md
+      - Course: admin/course.md
+      - Learning: admin/learning.md
+      - Store: admin/store.md
+      - Tracking: admin/tracking.md
+      - AI Assistant: admin/assistant.md

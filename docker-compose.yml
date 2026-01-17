@@ -1,0 +1,11 @@
+services:
+  mkdocs:
+    build: .
+    container_name: mkdocs
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./docs:/docs/docs
+      - ./mkdocs.yml:/docs/mkdocs.yml
+
+    command: serve --dev-addr=0.0.0.0:8000 --livereload
