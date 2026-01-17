@@ -52,6 +52,7 @@ plugins:
             Goal: 목표
             Achievement: 성취
             Communication: 소통
+            Report: 학습현황
             AI Assistant: AI 어시스턴트
 
             Learning Object: 학습 객체
@@ -90,6 +91,7 @@ nav:
       - Goal: student/goal.md
       - Achievement: student/achievement.md
       - Communication: student/communication.md
+      - Report: student/report.md
       - AI Assistant: student/assistant.md
 
   - Learning Object:
