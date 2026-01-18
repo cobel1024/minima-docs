@@ -9,8 +9,8 @@
     Viewing time is tracked and saved by the second at the actual playback position, 
     and progress is calculated only by the actual playback position.
 
-    ![Video](./image/pdf2.webp)
+    ![Video](./images/pdf2.webp)
 
 <br>
 
-![Video](./image/pdf.webp)
+![Video](./images/pdf.webp)

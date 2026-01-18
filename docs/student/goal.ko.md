@@ -13,8 +13,8 @@
 
 - 카테고리를 선택하거나 직접 입력하여 목표로 하는 스킬을 검색합니다.
 
-![Goal](./image/goal1.webp)
+![Goal](./images/goal1.webp)
 
 - 목표로 하는 스킬의 세부요소를 선택하고 목표로 설정합니다.
 
-![Goal](./image/goal2.webp)
+![Goal](./images/goal2.webp)

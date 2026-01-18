@@ -10,8 +10,8 @@
     시청 시간을 초단위로 실제 재생한 위치를 추적해서 저장하고,
     실제 재생 위치만으로 진행율을 계산합니다.
 
-    ![Video](./image/video2.webp)
+    ![Video](./images/video2.webp)
 
 <br>
 
-![Video](./image/video.webp)
+![Video](./images/video.webp)

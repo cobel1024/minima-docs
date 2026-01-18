@@ -16,32 +16,32 @@
 
 - 준수사항에 동의를 하고 인증을 한 후에 과정 학습을 시작합니다.
 
-![Getting Started](./image/course1.webp)
+![Getting Started](./images/course1.webp)
 
 - 설정된 기간에 맞춰서 토론, 과제, 시험, 설문조사와 강의 학습을 진행합니다.
 
-![Getting Started](./image/course2.webp)
+![Getting Started](./images/course2.webp)
 
 - 캘린더로 진행 일정을 확인할 수 있습니다.
 
-![Getting Started](./image/course3.webp)
+![Getting Started](./images/course3.webp)
 
 - 수료 기준을 통과하고 성적이 확정되면 수료증 신청할 수 있습니다.
 
-![Getting Started](./image/course4.webp)
+![Getting Started](./images/course4.webp)
 
 - 수료증을 신청하면 즉시 발급됩니다.
 
-![Getting Started](./image/course5.webp)
+![Getting Started](./images/course5.webp)
 
 - 과정 평가를 남길 수 있습니다.
 
-![Getting Started](./image/course6.webp)
+![Getting Started](./images/course6.webp)
 
 - 과정 별로 1:1 질문 답변을 진행할 수 있습니다.
 
-![Getting Started](./image/course7.webp)
+![Getting Started](./images/course7.webp)
 
 - 과정의 상세 정보를 확인할 수 있습니다.
 
-![Getting Started](./image/course8.webp)
+![Getting Started](./images/course8.webp)

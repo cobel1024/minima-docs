@@ -4,31 +4,31 @@
 
 - 준수사항에 동의를 하고 인증을 한 후에 토론를 시작합니다.
 
-![Getting Started](./image/discussion1.webp)
+![Getting Started](./images/discussion1.webp)
 
 ## Step 2. Participating in Discussion
 
 - 토론 기간 내에 주제글과 답변을 작성합니다.
 
-![Participating in Discussion](./image/discussion2.webp)
+![Participating in Discussion](./images/discussion2.webp)
 
-![Participating in Discussion](./image/discussion3.webp)
+![Participating in Discussion](./images/discussion3.webp)
 
 ## Step 3. Grading Review
 
 - 채점이 완료되면 성적이 공개되고 성적 이의 기간이 진행됩니다.
 
-![Grading Review](./image/discussion4.webp)
+![Grading Review](./images/discussion4.webp)
 
 - 채점 이의 기간 동안 이의 신청을 합니다.
 
-![Grading Review](./image/discussion5.webp)
+![Grading Review](./images/discussion5.webp)
 
 ## Step 4. Final Grade
 
 - 채점 이의에 따라 필요한 경우 재채점을 하고 점수를 확정합니다.
 
-![Final Grade](./image/discussion6.webp)
+![Final Grade](./images/discussion6.webp)
 
 <br>
 

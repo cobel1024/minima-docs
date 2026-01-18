@@ -10,8 +10,8 @@
 
 - The AI assistant is running.
 
-![Assistant](./image/assistant.webp)
+![Assistant](./images/assistant.webp)
 
 - The AI assistant saves multiple conversation lists.
 
-![Assistant](./image/assistant2.webp)
+![Assistant](./images/assistant2.webp)

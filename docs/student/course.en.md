@@ -17,32 +17,32 @@
 
 - Agree to the compliance requirements and authenticate before starting the course.
 
-![Getting Started](./image/course1.webp)
+![Getting Started](./images/course1.webp)
 
 - Proceed with discussions, assignments, exams, surveys, and lecture learning according to the set schedule.
 
-![Getting Started](./image/course2.webp)
+![Getting Started](./images/course2.webp)
 
 - You can check the schedule on the calendar.
 
-![Getting Started](./image/course3.webp)
+![Getting Started](./images/course3.webp)
 
 - You can apply for a certificate when you pass the completion criteria and grades are finalized.
 
-![Getting Started](./image/course4.webp)
+![Getting Started](./images/course4.webp)
 
 - Certificates are issued immediately upon application.
 
-![Getting Started](./image/course5.webp)
+![Getting Started](./images/course5.webp)
 
 - You can leave a course evaluation.
 
-![Getting Started](./image/course6.webp)
+![Getting Started](./images/course6.webp)
 
 - You can proceed with 1:1 Q&A for each course.
 
-![Getting Started](./image/course7.webp)
+![Getting Started](./images/course7.webp)
 
 - You can check the detailed information of the course.
 
-![Getting Started](./image/course8.webp)
+![Getting Started](./images/course8.webp)

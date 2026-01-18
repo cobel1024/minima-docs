@@ -8,12 +8,12 @@
 
 - This is a certificate you received.
 
-![Achievement](./image/achievement1.webp)
+![Achievement](./images/achievement1.webp)
 
 - Certificates are issued in PDF format.
 
-![Achievement](./image/achievement2.webp)
+![Achievement](./images/achievement2.webp)
 
 - Certificate verification with QR code
 
-![Achievement](./image/achievement3.webp)
+![Achievement](./images/achievement3.webp)

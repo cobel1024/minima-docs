@@ -8,12 +8,12 @@
 
 - 발급받은 수료증입니다.
 
-![Achievement](./image/achievement1.webp)
+![Achievement](./images/achievement1.webp)
 
 - PDF로 수료증이 발급됩니다.
 
-![Achievement](./image/achievement2.webp)
+![Achievement](./images/achievement2.webp)
 
 - QR 코드로 수료증 검증
 
-![Achievement](./image/achievement3.webp)
+![Achievement](./images/achievement3.webp)

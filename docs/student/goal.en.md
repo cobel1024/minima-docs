@@ -14,8 +14,8 @@
 
 - Search for the skill you are targeting by selecting a category or entering it directly.
 
-![Goal](./image/goal1.webp)
+![Goal](./images/goal1.webp)
 
 - Select the detailed elements of the target skill and set them as goals.
 
-![Goal](./image/goal2.webp)
+![Goal](./images/goal2.webp)

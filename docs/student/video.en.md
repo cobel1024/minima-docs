@@ -11,8 +11,8 @@
     Viewing time is tracked and saved by the second at the actual playback position, 
     and progress is calculated only by the actual playback position.
 
-    ![Video](./image/video2.webp)
+    ![Video](./images/video2.webp)
 
 <br>
 
-![Video](./image/video.webp)
+![Video](./images/video.webp)

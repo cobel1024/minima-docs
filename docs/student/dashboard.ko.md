@@ -1,3 +1,3 @@
 # Dashboard
 
-![Dashboard](./image/dashboard.webp)
+![Dashboard](./images/dashboard.webp)
