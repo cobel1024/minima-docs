@@ -9,6 +9,8 @@ Moodle, Canvas, Open edX 경량 대안.
 
 ![Minima LMS](./student/images/dashboard.webp)
 
+![Minima LMS Admin](./admin/images/dashboard.webp)
+
 ## 주요 기능
 
 ### 유연한 학습 구조

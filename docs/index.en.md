@@ -9,6 +9,8 @@ Lightweight alternative to Moodle, Canvas, and Open edX.
 
 ![Minima LMS](./student/images/dashboard.webp)
 
+![Minima LMS Admin](./admin/images/dashboard.webp)
+
 ## Key Features
 
 ### Flexible Learning Structure
