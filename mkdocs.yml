@@ -105,6 +105,7 @@ nav:
       - Course: student/course.md
 
   - Admin (in writing):
+      - Dashboard: admin/dashboard.md
       - Account: admin/account.md
       - Operation: admin/operation.md
       - Partner: admin/partner.md
