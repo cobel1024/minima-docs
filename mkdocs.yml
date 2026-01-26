@@ -1,5 +1,8 @@
 site_name: Minima Docs
 site_url: https://cobel1024.github.io/minima-docs/
+repo_url: https://github.com/cobel1024/minima
+repo_name: cobel1024/minima
+
 theme:
   name: material
   features:
@@ -17,6 +20,9 @@ theme:
 
   logo: assets/images/logo.png
   favicon: assets/images/favicon/favicon.ico
+
+  icon:
+    repo: fontawesome/brands/github
 
 markdown_extensions:
   - admonition

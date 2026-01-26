@@ -18,40 +18,51 @@ We wanted to build it clean, without technical debt. An LMS that developers can 
 
 ## Key Features
 
-**Micro-learning**
+### Micro-learning
+
 Manage learning objects as small units: videos, PDFs, quizzes, assignments, discussions, exams.
 
-*_Catalog-based Learning_
+### Catalog-based Learning
+
 Distribute content through public catalogs, personalized catalogs, and learning group catalogs. Learners study at their own pace.
 
-**Content Search**
+### Content Search
+
 Search through video subtitles to jump to exact moments in content.
 
-**Progress Tracking**
+### Progress Tracking
+
 Track video playback and PDF reading progress down to the second and position.
 
-**Multiple Content Sources**
+### Multiple Content Sources
+
 Use your own content or external sources like YouTube and Vimeo.
 
-**Assessment System**
-Apply a workflow for exams, assignments, and discussions: authentication → submission → grading → appeal → re-grading → finalization.\
+### Assessment System
+
+Apply a workflow for exams, assignments, and discussions: authentication → submission → grading → appeal → re-grading → finalization.
 Includes question banks, rubric grading, and plagiarism detection.
 
-**AI Integration**
-Learner assistant and quiz generator powered by AI.
+### AI Integration
 
-**Competency Framework**
-Built-in support for NCS (Korean National Competency Standard).\
-Learners set target skills and elements, create learning paths.\
+Use AI for learner assistant and quiz generator.
+
+### Competency Framework
+
+Built-in support for NCS (Korean National Competency Standard).
+Learners set target skills and elements, create learning paths.
 Map skills and elements to learning objects, certificates, and badges.
 
-**Partner Features**
+### Partner Features
+
 Provide content through partner groups, learning groups, and catalogs.
 
-**Store**
+### Store
+
 Sell courses through a marketing site. Coupon functionality included.
 
-**Multilingual**
+### Multilingual
+
 Korean/English support
 
 ---
