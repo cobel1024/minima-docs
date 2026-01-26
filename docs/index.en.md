@@ -1,110 +1,83 @@
 # Minima LMS
 
-Modern micro-learning LMS.
-Lightweight alternative to Moodle, Canvas, and Open edX.
-
-[https://github.com/cobel1024/minima](https://github.com/cobel1024/minima)
-
-<br>
+**Micro-learning LMS. Alternative to Moodle, Canvas, Open edX.**
 
 ![Minima LMS](./student/images/dashboard.webp)
 
 ![Minima LMS Admin](./admin/images/dashboard.webp)
 
+---
+
+## Why We Built This
+
+We wanted to create a micro-learning LMS that's easy to set up and use.
+
+We wanted to build it clean, without technical debt. An LMS that developers can easily extend.
+
+---
+
 ## Key Features
 
-### Flexible Learning Structure
+**Micro-learning**
+Manage learning objects as small units: videos, PDFs, quizzes, assignments, discussions, exams.
 
-Micro-Learning
+*_Catalog-based Learning_
+Distribute content through public catalogs, personalized catalogs, and learning group catalogs. Learners study at their own pace.
 
-- Independent Learning Objects: Video, PDF, Quiz, Assignment, Discussion, Exam, Survey
-- Course Composition: Combine learning objects into structured courses
-- Isolated Tracking: Separate progress records even when reusing the same content
-- Personalized Catalogs: Students freely enroll from their available catalogs
+**Content Search**
+Search through video subtitles to jump to exact moments in content.
 
-### Content Search
+**Progress Tracking**
+Track video playback and PDF reading progress down to the second and position.
 
-Find Exact Moments
+**Multiple Content Sources**
+Use your own content or external sources like YouTube and Vimeo.
 
-- Subtitle Search: Search video subtitles and jump directly to that moment
+**Assessment System**
+Apply a workflow for exams, assignments, and discussions: authentication → submission → grading → appeal → re-grading → finalization.\
+Includes question banks, rubric grading, and plagiarism detection.
 
-### AI Learning Support
+**AI Integration**
+Learner assistant and quiz generator powered by AI.
 
-Extensible AI
+**Competency Framework**
+Built-in support for NCS (Korean National Competency Standard).\
+Learners set target skills and elements, create learning paths.\
+Map skills and elements to learning objects, certificates, and badges.
 
-- Learning Assistant: Maintains conversation history for contextual support
-- Multi-Agent: Supports Gemini, OpenAI, and Anthropic
-- Plugin Architecture: Add custom AI agents for grading, curation, and content creation
+**Partner Features**
+Provide content through partner groups, learning groups, and catalogs.
 
-### Assessment
+**Store**
+Sell courses through a marketing site. Coupon functionality included.
 
-Complete Assessment Flow
-
-- Assignment: File submission, rubric grading, plagiarism detection
-- Discussion: Create threads and replies, participation evaluation
-- Exam: Timed quiz sessions
-- Assessment Flow: Authentication → Submit → Grade → Appeal → Re-grade → Finalize
-
-### Precise Progress Tracking
-
-Accurate Learning Time
-
-- Learning Records: Track video/PDF playback and reading positions by the second
-- Real Progress: Calculate completion based only on actual learning time
-
-### Competency & Certification
-
-Skills Management
-
-- Competency Framework: Built-in NCS (Korean National Competency Standards)
-- Learning Goals: Set learning objectives by skill units
-- Path Recommendation: Recommend learning paths based on skill units
-- Certificates: Auto-generate PDF certificates with QR verification
-- Badges: Award badges based on achievements
-
-### Operations
-
-B2B Support
-
-- Learning Groups: Manage learning groups and catalogs per partner
-- Communication: Announcements and 1:1 Q&A
-- Policies: Customizable terms and policies per partner
-
-### Store
-
-- Sell courses from separate marketing sites
-- Complete store and coupon functionality
-
-### Multi-Language
-
-- Korean/English support
+**Multilingual**
+Korean/English support
 
 ---
 
-## Where You Can Use
+## Use Cases
 
-Educational institutions, corporate training, bootcamps, anywhere learning management is needed
+Corporate training, bootcamps, anywhere learning management is needed
 
 ---
 
-## Why Another LMS
+## Tech Stack
 
-Existing LMS platforms run on old codebases. Adding a new feature takes months, and they're bloated with unnecessary functionality.
-
-Minima is an LMS rebuilt from scratch with a modern stack (Django 6, SolidJS). It's designed to be lightweight and fast with core features, easily extensible where needed.
-
-The goal is a business-ready open source that small to mid-sized organizations can use right away.
+- Python 3.14, Django 6, Django-ninja, Django-unfold
+- SolidJS, TypeScript, Vite, daisyUI, Tailwind CSS, Tiptap
+- PostgreSQL, Redis, Celery, OpenSearch, Apache Tika
 
 ---
 
 ## License
 
-[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)
-Commercial use, modification, distribution, and private use are permitted.
+[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)\
+Free for commercial use, modification, distribution, and private use.
 
 ---
 
-## Development Environment
+## Development
 
-- [Backend README.md](https://github.com/cobel1024/minima/blob/main/core/README.md)
-- [Student Dashboard README.md](https://github.com/cobel1024/minima/blob/main/student/README.md)
+- [Backend README](https://github.com/cobel1024/minima/blob/main/core/README.md)
+- [Student Dashboard README](https://github.com/cobel1024/minima/blob/main/student/README.md)

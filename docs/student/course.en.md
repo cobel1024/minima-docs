@@ -2,36 +2,35 @@
 
 !!! note "Micro Learning"
 
-    Minima LMS allows learning objects to be used directly 
-    or included in a course for learning. It is designed to reuse 
-    a single learning object in multiple ways.
+    Minima LMS allows you to use learning objects directly
+    or include them in courses for learning. One learning object
+    is designed to be reused in multiple ways.
 
-!!! warning "Learning Record Tracking"
+!!! warning "Learning Progress Tracking"
 
-    When reusing the same learning object in multiple ways, there is a problem 
-    of whether to view the learning record as a single record or as a separate 
-    record for each location. Minima LMS stores and tracks learning records 
-    separately for each location, completely isolating them.
+    When reusing the same learning object in multiple ways, there's a question
+    whether to track learning progress as a single record or separate records per location.
+    Minima LMS stores and tracks learning records separately per location, fully isolating them.
 
 <br>
 
-- Agree to the compliance requirements and authenticate before starting the course.
+- Accept the terms and authenticate before starting the course.
 
 ![Getting Started](./images/course1.webp)
 
-- Proceed with discussions, assignments, exams, surveys, and lecture learning according to the set schedule.
+- Participate in discussions, assignments, exams, surveys, and lectures according to the schedule.
 
 ![Getting Started](./images/course2.webp)
 
-- You can check the schedule on the calendar.
+- Check the schedule on the calendar.
 
 ![Getting Started](./images/course3.webp)
 
-- You can apply for a certificate when you pass the completion criteria and grades are finalized.
+- Once you pass the completion criteria and grades are finalized, you can apply for a certificate.
 
 ![Getting Started](./images/course4.webp)
 
-- Certificates are issued immediately upon application.
+- Certificate is issued immediately upon application.
 
 ![Getting Started](./images/course5.webp)
 
@@ -39,10 +38,10 @@
 
 ![Getting Started](./images/course6.webp)
 
-- You can proceed with 1:1 Q&A for each course.
+- 1:1 Q&A is available for each course.
 
 ![Getting Started](./images/course7.webp)
 
-- You can check the detailed information of the course.
+- Check detailed course information.
 
 ![Getting Started](./images/course8.webp)

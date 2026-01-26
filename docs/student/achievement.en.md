@@ -1,16 +1,10 @@
 # Achievement
 
-!!! note "Badge Service"
-
-    Minima LMS is fully equipped with a badge service as well as certificates.
-
-<br>
-
-- This is a certificate you received.
+- When you complete a course, a certificate is issued.
 
 ![Achievement](./images/achievement1.webp)
 
-- Certificates are issued in PDF format.
+- Certificate is issued as PDF.
 
 ![Achievement](./images/achievement2.webp)
 

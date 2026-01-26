@@ -2,13 +2,13 @@
 
 ## Step 1 Getting Started
 
-- Agree to the compliance requirements and authenticate before starting the discussion.
+- Accept the terms and authenticate before starting the discussion.
 
 ![Getting Started](./images/discussion1.webp)
 
 ## Step 2. Participating in Discussion
 
-- Write main posts and replies during the discussion period.
+- Write posts and replies within the discussion period.
 
 ![Participating in Discussion](./images/discussion2.webp)
 
@@ -20,13 +20,13 @@
 
 ![Grading Review](./images/discussion4.webp)
 
-- File an appeal during the grade appeal period.
+- Submit an appeal during the grade appeal period.
 
 ![Grading Review](./images/discussion5.webp)
 
 ## Step 4. Final Grade
 
-- Re-grade if necessary based on the grade appeal and finalize the score.
+- Re-grade if necessary based on the appeal and finalize the score.
 
 ![Final Grade](./images/discussion6.webp)
 
@@ -34,4 +34,4 @@
 
 !!! note "Badge Service"
 
-    This achievement can be linked to the badge service.
+    This achievement can be connected to the badge service.

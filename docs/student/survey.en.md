@@ -1,6 +1,6 @@
 # Survey
 
-- You can conduct surveys.
+- Conduct surveys.
 
 ![Survey](./images/survey.webp)
 
@@ -8,8 +8,10 @@
 
 ![Survey](./images/survey-results.webp)
 
-!!! note "Anonymous Survey"
+!!! note "Anonymous Surveys"
 
-    Anonymous surveys can also be provided to users who are not logged in.
+    Anonymous surveys can be provided to users who are not logged in.
+    Anonymous surveys do not directly store submitter information.
+    Tracking information or logs may remain.
 
     ![Survey](./images/anonymous-survey.webp)

@@ -1,5 +1,7 @@
 # Quiz
 
+- Quizzes can be used standalone or embedded in other content.
+
 ![Quiz 1](./images/quiz1.webp)
 
 ![Quiz 2](./images/quiz2.webp)

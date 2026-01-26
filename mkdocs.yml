@@ -47,8 +47,8 @@ plugins:
 
             Student: 학습자
             Dashboard: 대시보드
-            Search: 검색
             Catalog: 카탈로그
+            Search: 검색
             Goal: 목표
             Achievement: 성취
             Communication: 소통
@@ -59,12 +59,13 @@ plugins:
             Assignment: 과제
             Exam: 시험
             Discussion: 토론
-            Video: 비디오
+            Video: 동영상
             PDF: PDF
             Survey: 설문조사
             Quiz: 퀴즈
             Course: 과정
 
+            Admin: 관리자
             Account: 계정
             Operation: 운영
             Partner: 파트너
@@ -86,8 +87,8 @@ nav:
 
   - Student:
       - Dashboard: student/dashboard.md
-      - Search: student/search.md
       - Catalog: student/catalog.md
+      - Search: student/search.md
       - Goal: student/goal.md
       - Achievement: student/achievement.md
       - Communication: student/communication.md
@@ -104,7 +105,7 @@ nav:
       - Quiz: student/quiz.md
       - Course: student/course.md
 
-  - Admin (in writing):
+  - Admin:
       - Dashboard: admin/dashboard.md
       - Account: admin/account.md
       - Operation: admin/operation.md

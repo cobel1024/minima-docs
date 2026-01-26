@@ -1,53 +1,51 @@
 # 설치
 
-## 사전 요구사항
+## 요구사항
 
 - Docker
-- Python 3.14 (for core development)
-- Node.js 22+ (for student development)
 
 ## 빠른 시작
 
 ```bash
 git clone https://github.com/cobel1024/minima && cd minima
-chmod +x dev.sh
-./dev.sh up
+sh dev.sh up
 ```
 
-이 명령으로 다음 작업이 실행됩니다:
+![Installation](./images/installation.jpg)
 
-1. core 백엔드 서비스 시작
-2. 샘플 데이터로 Django 부트스트랩
-3. 학습자 프론트엔드 시작
+이미지 다운로드, 빌드, 서비스 시작, 데모 데이터 생성까지 자동으로 진행됩니다.
+처음 설치는 10분, 재설치는 3분 정도 걸립니다.
 
-## 접속
+![Installation](./images/installation-done.jpg)
 
-- **합습자 인터페이스**: [http://localhost:5173](http://localhost:5173)
-  - 이메일: `admin@example.com`
-  - 비밀번호: `1111`
+설치 완료 후 바로 사용할 수 있습니다.
 
-- **관리자 패널**: [http://localhost:8000/admin/](http://localhost:8000/admin/)
-  - 이메일: `admin@example.com`
-  - 비밀번호: `1111`
+## 데모 계정
+
+**학습자 인터페이스**: [http://localhost:5173](http://localhost:5173)
+이메일: `admin@example.com` / 비밀번호: `1111`
+
+**관리자 패널**: [http://localhost:8000/admin/](http://localhost:8000/admin/)
+이메일: `admin@example.com` / 비밀번호: `1111`
+
+## 인프라
 
 - **API 문서**: [http://localhost:8000/api/docs](http://localhost:8000/api/docs)
-
-## 추가 서비스
-
-- **Mailpit** (이메일 테스트): [http://localhost:8025](http://localhost:8025)
-- **MinIO 콘솔** (스토리지): [http://localhost:9001](http://localhost:9001)
-  - 사용자: `minima` / 비밀번호: `minima.dev`
+- **Mailpit** (이메일): [http://localhost:8025](http://localhost:8025)
+- **MinIO** (스토리지): [http://localhost:9001](http://localhost:9001)
+  사용자: `minima` / 비밀번호: `minima.dev`
 - **OpenSearch**: [http://localhost:9200](http://localhost:9200)
 
-## 개발
-
-- 단축 명령어
+## 삭제
 
 ```bash
-./dev.sh up      # 모든 서비스 시작
-./dev.sh down    # 모든 서비스 중지
-./dev.sh clean   # 서비스 중지 및 볼륨 삭제
-./dev.sh stop    # 모든 서비스 중지
-./dev.sh restart # 모든 서비스 재시작
-./dev.sh logs    # 로그 보기
+sh dev.sh clean
+```
+
+서비스와 데이터를 삭제합니다. Docker 이미지는 남습니다.
+
+## 로그
+
+```bash
+sh dev.sh logs -f --tail 100
 ```

@@ -1,53 +1,51 @@
 # Installation
 
-## Prerequisites
+## Requirements
 
 - Docker
-- Python 3.14 (for core development)
-- Node.js 22+ (for student development)
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/cobel1024/minima && cd minima
-chmod +x dev.sh
-./dev.sh up
+sh dev.sh up
 ```
 
-This will:
+![Installation](./images/installation.jpg)
 
-1. Start core backend services
-2. Bootstrap Django with sample data
-3. Start student frontend
+Automatically downloads images, builds, starts services, and creates demo data.
+First installation takes about 10 minutes, reinstallation takes about 3 minutes.
 
-## Access
+![Installation](./images/installation-done.jpg)
 
-- **Student Interface**: [http://localhost:5173](http://localhost:5173)
-  - Email: `admin@example.com`
-  - Password: `1111`
+Ready to use after installation.
 
-- **Admin Panel**: [http://localhost:8000/admin/](http://localhost:8000/admin/)
-  - Email: `admin@example.com`
-  - Password: `1111`
+## Demo Accounts
+
+**Student Interface**: [http://localhost:5173](http://localhost:5173)
+Email: `admin@example.com` / Password: `1111`
+
+**Admin Panel**: [http://localhost:8000/admin/](http://localhost:8000/admin/)
+Email: `admin@example.com` / Password: `1111`
+
+## Infrastructure
 
 - **API Docs**: [http://localhost:8000/api/docs](http://localhost:8000/api/docs)
-
-## Additional Services
-
-- **Mailpit** (Email testing): [http://localhost:8025](http://localhost:8025)
-- **MinIO Console** (Storage): [http://localhost:9001](http://localhost:9001)
-  - User: `minima` / Password: `minima.dev`
+- **Mailpit** (Email): [http://localhost:8025](http://localhost:8025)
+- **MinIO** (Storage): [http://localhost:9001](http://localhost:9001)
+  User: `minima` / Password: `minima.dev`
 - **OpenSearch**: [http://localhost:9200](http://localhost:9200)
 
-## Development
-
-- shortcuts
+## Clean Up
 
 ```bash
-./dev.sh up      # Start all services
-./dev.sh down    # Stop all services
-./dev.sh clean   # Stop and remove volumes
-./dev.sh stop    # Stop all services
-./dev.sh restart # Restart all services
-./dev.sh logs    # View logs
+sh dev.sh clean
+```
+
+Removes services and data. Docker images remain.
+
+## Logs
+
+```bash
+sh dev.sh logs -f --tail 100
 ```

@@ -1,10 +1,10 @@
 # Communication
 
-- This is a list of announcements. Read status is tracked.
+- Announcement list. Tracks read status.
 
 ![Communication](./images/announcement.webp)
 
-- This is a list of 1:1 Q&A. Processing status is tracked.
+- 1:1 Q&A list. Tracks processing status.
 
 ![Communication](./images/inquiry.webp)
 

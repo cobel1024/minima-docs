@@ -2,12 +2,12 @@
 
 !!! note "Exam Full Workflow"
 
-    - Exams are randomly generated from the question bank based on configured question types and quantities.
-    - Exam attempts are limited to the number of times configured in the exam settings.
+    - Exam questions are randomly selected from the question pool based on configured question types and numbers.
+    - Students can attempt the exam up to the number of times set in the exam settings.
     - When retaking, previous records are not deleted but kept with inactive status.
     - Multiple choice and numeric input types are automatically graded, while text input and essay types require instructor grading.
-    - Once grading is complete, change status to 'Complete' to publish results to learners and start the objection period.
-    - After the objection period ends, change grading to 'Confirmed' to complete the exam process.
+    - Once grading is complete, it must be changed to 'Complete' status to be published to learners and start the appeal period.
+    - After the appeal period ends, changing the grade to 'Finalized' completes the exam process.
 
 <br>
 

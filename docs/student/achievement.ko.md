@@ -1,12 +1,6 @@
 # Achievement
 
-!!! note "Badge 서비스"
-
-    Minima LMS는 수료증 뿐만 아니라 뱃지 서비스도 완비되어 있습니다.
-
-<br>
-
-- 발급받은 수료증입니다.
+- 과정을 수료하면 수료증이 발급됩니다.
 
 ![Achievement](./images/achievement1.webp)
 

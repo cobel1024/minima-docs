@@ -1,13 +1,10 @@
 # Partner
 
-!!! note "Partner Learning Groups and Catalogs"
+!!! note "Partner Learning Groups, Catalogs"
 
-    Partners can be added to Minima LMS.
-    Partners have employees who are enrolled in learning groups.
-    Learning groups can have catalogs.
-    Partner employees can freely access content 
-    within the catalogs that their learning groups have.
-    Catalogs are managed in the 'Learning' app.
+    You can add partners receiving education in Minima LMS.
+    Partners have groups, groups contain members, and separate member profiles are stored.
+    Members can be enrolled in learning groups, and the partner's administrator manages the learning groups.
 
 <br>
 
