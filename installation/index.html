@@ -282,10 +282,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Requirements
       
     </span>
   </a>
@@ -304,10 +304,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access" class="md-nav__link">
+  <a href="#demo-accounts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Access
+        Demo Accounts
       
     </span>
   </a>
@@ -315,10 +315,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-services" class="md-nav__link">
+  <a href="#infrastructure" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Additional Services
+        Infrastructure
       
     </span>
   </a>
@@ -326,10 +326,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#development" class="md-nav__link">
+  <a href="#clean-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Development
+        Clean Up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logs
       
     </span>
   </a>
@@ -428,14 +439,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../student/search/" class="md-nav__link">
+      <a href="../student/catalog/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Search
+    Catalog
   
 
     
@@ -456,14 +467,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../student/catalog/" class="md-nav__link">
+      <a href="../student/search/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Catalog
+    Search
   
 
     
@@ -931,7 +942,7 @@
   <span class="md-ellipsis">
     
   
-    Admin (in writing)
+    Admin
   
 
     
@@ -947,7 +958,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Admin (in writing)
+    Admin
   
 
           </label>
@@ -1435,10 +1446,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Requirements
       
     </span>
   </a>
@@ -1457,10 +1468,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access" class="md-nav__link">
+  <a href="#demo-accounts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Access
+        Demo Accounts
       
     </span>
   </a>
@@ -1468,10 +1479,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-services" class="md-nav__link">
+  <a href="#infrastructure" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Additional Services
+        Infrastructure
       
     </span>
   </a>
@@ -1479,10 +1490,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#development" class="md-nav__link">
+  <a href="#clean-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Development
+        Clean Up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logs
       
     </span>
   </a>
@@ -1507,60 +1529,38 @@
 
 
 <h1 id="installation">Installation</h1>
-<h2 id="prerequisites">Prerequisites</h2>
+<h2 id="requirements">Requirements</h2>
 <ul>
 <li>Docker</li>
-<li>Python 3.14 (for core development)</li>
-<li>Node.js 22+ (for student development)</li>
 </ul>
 <h2 id="quick-start">Quick Start</h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cobel1024/minima<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>minima
-chmod<span class="w"> </span>+x<span class="w"> </span>dev.sh
-./dev.sh<span class="w"> </span>up
+sh<span class="w"> </span>dev.sh<span class="w"> </span>up
 </code></pre></div>
-<p>This will:</p>
-<ol>
-<li>Start core backend services</li>
-<li>Bootstrap Django with sample data</li>
-<li>Start student frontend</li>
-</ol>
-<h2 id="access">Access</h2>
-<ul>
-<li><strong>Student Interface</strong>: <a href="http://localhost:5173">http://localhost:5173</a><ul>
-<li>Email: <code>admin@example.com</code></li>
-<li>Password: <code>1111</code></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>Admin Panel</strong>: <a href="http://localhost:8000/admin/">http://localhost:8000/admin/</a><ul>
-<li>Email: <code>admin@example.com</code></li>
-<li>Password: <code>1111</code></li>
-</ul>
-</li>
-</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/installation.jpg" data-desc-position="bottom"><img alt="Installation" src="../images/installation.jpg"></a></p>
+<p>Automatically downloads images, builds, starts services, and creates demo data.
+First installation takes about 10 minutes, reinstallation takes about 3 minutes.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/installation-done.jpg" data-desc-position="bottom"><img alt="Installation" src="../images/installation-done.jpg"></a></p>
+<p>Ready to use after installation.</p>
+<h2 id="demo-accounts">Demo Accounts</h2>
+<p><strong>Student Interface</strong>: <a href="http://localhost:5173">http://localhost:5173</a>
+Email: <code>admin@example.com</code> / Password: <code>1111</code></p>
+<p><strong>Admin Panel</strong>: <a href="http://localhost:8000/admin/">http://localhost:8000/admin/</a>
+Email: <code>admin@example.com</code> / Password: <code>1111</code></p>
+<h2 id="infrastructure">Infrastructure</h2>
 <ul>
 <li><strong>API Docs</strong>: <a href="http://localhost:8000/api/docs">http://localhost:8000/api/docs</a></li>
-</ul>
-<h2 id="additional-services">Additional Services</h2>
-<ul>
-<li><strong>Mailpit</strong> (Email testing): <a href="http://localhost:8025">http://localhost:8025</a></li>
-<li><strong>MinIO Console</strong> (Storage): <a href="http://localhost:9001">http://localhost:9001</a><ul>
-<li>User: <code>minima</code> / Password: <code>minima.dev</code></li>
-</ul>
-</li>
+<li><strong>Mailpit</strong> (Email): <a href="http://localhost:8025">http://localhost:8025</a></li>
+<li><strong>MinIO</strong> (Storage): <a href="http://localhost:9001">http://localhost:9001</a>
+  User: <code>minima</code> / Password: <code>minima.dev</code></li>
 <li><strong>OpenSearch</strong>: <a href="http://localhost:9200">http://localhost:9200</a></li>
 </ul>
-<h2 id="development">Development</h2>
-<ul>
-<li>shortcuts</li>
-</ul>
-<div class="highlight"><pre><span></span><code>./dev.sh<span class="w"> </span>up<span class="w">      </span><span class="c1"># Start all services</span>
-./dev.sh<span class="w"> </span>down<span class="w">    </span><span class="c1"># Stop all services</span>
-./dev.sh<span class="w"> </span>clean<span class="w">   </span><span class="c1"># Stop and remove volumes</span>
-./dev.sh<span class="w"> </span>stop<span class="w">    </span><span class="c1"># Stop all services</span>
-./dev.sh<span class="w"> </span>restart<span class="w"> </span><span class="c1"># Restart all services</span>
-./dev.sh<span class="w"> </span>logs<span class="w">    </span><span class="c1"># View logs</span>
+<h2 id="clean-up">Clean Up</h2>
+<div class="highlight"><pre><span></span><code>sh<span class="w"> </span>dev.sh<span class="w"> </span>clean
+</code></pre></div>
+<p>Removes services and data. Docker images remain.</p>
+<h2 id="logs">Logs</h2>
+<div class="highlight"><pre><span></span><code>sh<span class="w"> </span>dev.sh<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span>--tail<span class="w"> </span><span class="m">100</span>
 </code></pre></div>
 
 

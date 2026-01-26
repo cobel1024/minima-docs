@@ -285,7 +285,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        사전 요구사항
+        요구사항
       
     </span>
   </a>
@@ -307,7 +307,7 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        접속
+        데모 계정
       
     </span>
   </a>
@@ -318,7 +318,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        추가 서비스
+        인프라
       
     </span>
   </a>
@@ -329,7 +329,18 @@
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        개발
+        삭제
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        로그
       
     </span>
   </a>
@@ -428,14 +439,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../student/search/" class="md-nav__link">
+      <a href="../student/catalog/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    검색
+    카탈로그
   
 
     
@@ -456,14 +467,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../student/catalog/" class="md-nav__link">
+      <a href="../student/search/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    카탈로그
+    검색
   
 
     
@@ -771,7 +782,7 @@
   <span class="md-ellipsis">
     
   
-    비디오
+    동영상
   
 
     
@@ -931,7 +942,7 @@
   <span class="md-ellipsis">
     
   
-    Admin (in writing)
+    관리자
   
 
     
@@ -947,7 +958,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Admin (in writing)
+    관리자
   
 
           </label>
@@ -1438,7 +1449,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        사전 요구사항
+        요구사항
       
     </span>
   </a>
@@ -1460,7 +1471,7 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        접속
+        데모 계정
       
     </span>
   </a>
@@ -1471,7 +1482,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        추가 서비스
+        인프라
       
     </span>
   </a>
@@ -1482,7 +1493,18 @@
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        개발
+        삭제
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        로그
       
     </span>
   </a>
@@ -1507,60 +1529,38 @@
 
 
 <h1 id="_1">설치</h1>
-<h2 id="_2">사전 요구사항</h2>
+<h2 id="_2">요구사항</h2>
 <ul>
 <li>Docker</li>
-<li>Python 3.14 (for core development)</li>
-<li>Node.js 22+ (for student development)</li>
 </ul>
 <h2 id="_3">빠른 시작</h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cobel1024/minima<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>minima
-chmod<span class="w"> </span>+x<span class="w"> </span>dev.sh
-./dev.sh<span class="w"> </span>up
+sh<span class="w"> </span>dev.sh<span class="w"> </span>up
 </code></pre></div>
-<p>이 명령으로 다음 작업이 실행됩니다:</p>
-<ol>
-<li>core 백엔드 서비스 시작</li>
-<li>샘플 데이터로 Django 부트스트랩</li>
-<li>학습자 프론트엔드 시작</li>
-</ol>
-<h2 id="_4">접속</h2>
-<ul>
-<li><strong>합습자 인터페이스</strong>: <a href="http://localhost:5173">http://localhost:5173</a><ul>
-<li>이메일: <code>admin@example.com</code></li>
-<li>비밀번호: <code>1111</code></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>관리자 패널</strong>: <a href="http://localhost:8000/admin/">http://localhost:8000/admin/</a><ul>
-<li>이메일: <code>admin@example.com</code></li>
-<li>비밀번호: <code>1111</code></li>
-</ul>
-</li>
-</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/installation.jpg" data-desc-position="bottom"><img alt="Installation" src="../../images/installation.jpg"></a></p>
+<p>이미지 다운로드, 빌드, 서비스 시작, 데모 데이터 생성까지 자동으로 진행됩니다.
+처음 설치는 10분, 재설치는 3분 정도 걸립니다.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/installation-done.jpg" data-desc-position="bottom"><img alt="Installation" src="../../images/installation-done.jpg"></a></p>
+<p>설치 완료 후 바로 사용할 수 있습니다.</p>
+<h2 id="_4">데모 계정</h2>
+<p><strong>학습자 인터페이스</strong>: <a href="http://localhost:5173">http://localhost:5173</a>
+이메일: <code>admin@example.com</code> / 비밀번호: <code>1111</code></p>
+<p><strong>관리자 패널</strong>: <a href="http://localhost:8000/admin/">http://localhost:8000/admin/</a>
+이메일: <code>admin@example.com</code> / 비밀번호: <code>1111</code></p>
+<h2 id="_5">인프라</h2>
 <ul>
 <li><strong>API 문서</strong>: <a href="http://localhost:8000/api/docs">http://localhost:8000/api/docs</a></li>
-</ul>
-<h2 id="_5">추가 서비스</h2>
-<ul>
-<li><strong>Mailpit</strong> (이메일 테스트): <a href="http://localhost:8025">http://localhost:8025</a></li>
-<li><strong>MinIO 콘솔</strong> (스토리지): <a href="http://localhost:9001">http://localhost:9001</a><ul>
-<li>사용자: <code>minima</code> / 비밀번호: <code>minima.dev</code></li>
-</ul>
-</li>
+<li><strong>Mailpit</strong> (이메일): <a href="http://localhost:8025">http://localhost:8025</a></li>
+<li><strong>MinIO</strong> (스토리지): <a href="http://localhost:9001">http://localhost:9001</a>
+  사용자: <code>minima</code> / 비밀번호: <code>minima.dev</code></li>
 <li><strong>OpenSearch</strong>: <a href="http://localhost:9200">http://localhost:9200</a></li>
 </ul>
-<h2 id="_6">개발</h2>
-<ul>
-<li>단축 명령어</li>
-</ul>
-<div class="highlight"><pre><span></span><code>./dev.sh<span class="w"> </span>up<span class="w">      </span><span class="c1"># 모든 서비스 시작</span>
-./dev.sh<span class="w"> </span>down<span class="w">    </span><span class="c1"># 모든 서비스 중지</span>
-./dev.sh<span class="w"> </span>clean<span class="w">   </span><span class="c1"># 서비스 중지 및 볼륨 삭제</span>
-./dev.sh<span class="w"> </span>stop<span class="w">    </span><span class="c1"># 모든 서비스 중지</span>
-./dev.sh<span class="w"> </span>restart<span class="w"> </span><span class="c1"># 모든 서비스 재시작</span>
-./dev.sh<span class="w"> </span>logs<span class="w">    </span><span class="c1"># 로그 보기</span>
+<h2 id="_6">삭제</h2>
+<div class="highlight"><pre><span></span><code>sh<span class="w"> </span>dev.sh<span class="w"> </span>clean
+</code></pre></div>
+<p>서비스와 데이터를 삭제합니다. Docker 이미지는 남습니다.</p>
+<h2 id="_7">로그</h2>
+<div class="highlight"><pre><span></span><code>sh<span class="w"> </span>dev.sh<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span>--tail<span class="w"> </span><span class="m">100</span>
 </code></pre></div>
 
 
