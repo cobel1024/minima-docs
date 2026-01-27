@@ -67,6 +67,7 @@ plugins:
             Discussion: 토론
             Video: 동영상
             PDF: PDF
+            Live: 라이브
             Survey: 설문조사
             Quiz: 퀴즈
             Course: 과정
@@ -106,6 +107,7 @@ nav:
       - Assignment: student/assignment.md
       - Discussion: student/discussion.md
       - Video: student/video.md
+      - Live: student/live.md
       - PDF: student/pdf.md
       - Survey: student/survey.md
       - Quiz: student/quiz.md

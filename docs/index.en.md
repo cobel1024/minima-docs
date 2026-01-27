@@ -22,7 +22,7 @@ We wanted to build it clean, without technical debt. An LMS that developers can 
 
 ### Micro-learning
 
-Manage learning objects as small units: videos, PDFs, quizzes, assignments, discussions, exams.
+Manage learning objects as small units: videos, live, PDFs, quizzes, assignments, discussions, exams.
 
 ### Catalog-based Learning
 
@@ -34,7 +34,7 @@ Search through video subtitles to jump to exact moments in content.
 
 ### Progress Tracking
 
-Track video playback and PDF reading progress down to the second and position.
+Records video viewing, live lecture attendance, and PDF playback/reading history down to the second and by position.
 
 ### Multiple Content Sources
 
