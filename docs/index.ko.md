@@ -1,5 +1,7 @@
 # Minima LMS
 
+[https://github.com/cobel1024/minima](https://github.com/cobel1024/minima)
+
 **마이크로 러닝 LMS. Moodle, Canvas, Open edX 대안.**
 
 ![Minima LMS](./student/images/dashboard.webp)
