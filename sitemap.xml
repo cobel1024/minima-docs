@@ -218,6 +218,13 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://cobel1024.github.io/minima-docs/ko/student/goal/"/>
     </url>
     <url>
+        <loc>https://cobel1024.github.io/minima-docs/student/live/</loc>
+        <lastmod>2026-01-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cobel1024.github.io/minima-docs/student/live/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://cobel1024.github.io/minima-docs/ko/student/live/"/>
+    </url>
+    <url>
         <loc>https://cobel1024.github.io/minima-docs/student/pdf/</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>daily</changefreq>
@@ -475,6 +482,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://cobel1024.github.io/minima-docs/ko/student/goal/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://cobel1024.github.io/minima-docs/student/goal/"/>
+    </url>
+    <url>
+        <loc>https://cobel1024.github.io/minima-docs/ko/student/live/</loc>
+        <lastmod>2026-01-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://cobel1024.github.io/minima-docs/ko/student/live/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cobel1024.github.io/minima-docs/student/live/"/>
     </url>
     <url>
         <loc>https://cobel1024.github.io/minima-docs/ko/student/pdf/</loc>
