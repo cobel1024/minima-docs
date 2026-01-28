@@ -85,7 +85,7 @@ NCS(Korean National Competency Standard) 기본 탑재.
 
 ## 라이선스
 
-[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)\
+[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)
 상업적 이용, 수정, 배포, 개인 사용 자유롭게 가능합니다.
 
 ---

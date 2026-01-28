@@ -85,7 +85,7 @@ Corporate training, bootcamps, anywhere learning management is needed
 
 ## License
 
-[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)\
+[MIT](https://github.com/cobel1024/minima/blob/main/core/LICENSE)
 Free for commercial use, modification, distribution, and private use.
 
 ---
